@@ -271,3 +271,66 @@ button {
   align-items: center;
   gap: 0.45rem;
 }
+
+.testimonial-section {
+  --section-spacing: 7rem;
+}
+
+.testimonial-section h2 {
+  font-size: var(--size-2xl);
+  font-weight: 500;
+  text-align: center;
+}
+
+.testimonial-container {
+  --section-spacing: 3rem;
+  margin-top: var(--section-spacing);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.65rem;
+}
+
+.testimonial-card {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  width: 300px;
+  height: 280px;
+  max-width: 430px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonial-card blockquote p {
+  font-size: var(--size-md);
+  line-height: 1.5;
+}
+
+.testimonial-card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-card-footer img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 0.75rem;
+  border-radius: 5px;
+}
+
+.testimonial-card-footer-meta {
+  font-size: var(--size-sm);
+  font-weight: 500;
+}
+
+.testimonial-card-footer-meta p {
+  font-size: var(--size-sm);
+}
+
+.testimonial-card-footer-meta p:nth-child(2) {
+  color: var(--muted);
+}
