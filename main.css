@@ -461,6 +461,12 @@ button {
   border-radius: 0.25rem;
   width: 100%;
   font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.changelog-card:hover {
+  background-color: #201e18;
+  cursor: pointer;
 }
 
 .changelog-card-header {
