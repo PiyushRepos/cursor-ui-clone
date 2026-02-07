@@ -11,6 +11,10 @@
 	<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
+## Live Demo
+
+You can view a live demo of the Cursor Clone landing page here: [Live Demo](https://cursor-ui-clone-nu.vercel.app/)
+
 ## Usage
 
 To use this code, simply copy and paste the HTML and CSS into your project. You can customize the content and styles as needed.
